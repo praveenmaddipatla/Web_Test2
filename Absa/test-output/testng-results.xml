@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="absa_Suite" duration-ms="25901" started-at="2020-08-30T17:22:22Z" finished-at="2020-08-30T17:22:48Z">
+    <groups>
+    </groups>
+    <test name="absa_Test" duration-ms="25901" started-at="2020-08-30T17:22:22Z" finished-at="2020-08-30T17:22:48Z">
+      <class name="com.absa.testcasas.AddUserTC00_1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.absa.testcasas.AddUserTC00_1@57baeedf]" name="setup" is-config="true" duration-ms="8381" started-at="2020-08-30T17:22:22Z" finished-at="2020-08-30T17:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddFirstUser()[pri:0, instance:com.absa.testcasas.AddUserTC00_1@57baeedf]" name="AddFirstUser" duration-ms="2503" started-at="2020-08-30T17:22:31Z" finished-at="2020-08-30T17:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFirstUser -->
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.absa.testcasas.AddUserTC00_1@57baeedf]" name="teardoem" is-config="true" duration-ms="3055" started-at="2020-08-30T17:22:33Z" finished-at="2020-08-30T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoem -->
+      </class> <!-- com.absa.testcasas.AddUserTC00_1 -->
+      <class name="com.absa.testcasas.AddUserTC00_2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.absa.testcasas.AddUserTC00_2@343f4d3d]" name="setup" is-config="true" duration-ms="7546" started-at="2020-08-30T17:22:36Z" finished-at="2020-08-30T17:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddFirstUser()[pri:0, instance:com.absa.testcasas.AddUserTC00_2@343f4d3d]" name="AddFirstUser" duration-ms="2234" started-at="2020-08-30T17:22:44Z" finished-at="2020-08-30T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddFirstUser -->
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.absa.testcasas.AddUserTC00_2@343f4d3d]" name="teardoem" is-config="true" duration-ms="1882" started-at="2020-08-30T17:22:46Z" finished-at="2020-08-30T17:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoem -->
+      </class> <!-- com.absa.testcasas.AddUserTC00_2 -->
+    </test> <!-- absa_Test -->
+  </suite> <!-- absa_Suite -->
+</testng-results>

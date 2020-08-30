@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [absa_Suite]">
+  <listeners>
+    <listener class-name="com.absa.utilitys.ExtentReporting"/>
+  </listeners>
+  <test thread-count="5" name="absa_Test(failed)">
+    <classes>
+      <class name="com.absa.testcasas.AddUserTC00_1">
+        <methods>
+          <include name="teardoem"/>
+          <include name="AddFirstUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.absa.testcasas.AddUserTC00_1 -->
+    </classes>
+  </test> <!-- absa_Test(failed) -->
+</suite> <!-- Failed suite [absa_Suite] -->

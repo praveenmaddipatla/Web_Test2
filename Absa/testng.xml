@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="absa_Suite">
+
+<listeners>
+		<listener class-name="com.absa.utilitys.ExtentReporting" />
+	</listeners>
+  <test thread-count="5" name="absa_Test">
+    <classes>
+      <class name="com.absa.testcasas.AddUserTC00_1"/>
+      <class name="com.absa.testcasas.AddUserTC00_2"/>
+    </classes>
+  </test> <!-- absa_Test -->
+</suite> <!-- absa_Suite -->
